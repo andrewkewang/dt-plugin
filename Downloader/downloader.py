@@ -34,6 +34,7 @@ ENGLISH_TO_KOREAN_BOOK_NAMES = [
     "Nehemiah", "느헤미야",
     "Esther", "에스더",
     "Job", "욥",
+    "Job", "욥기",
     "Psalm", "시편",
     "Proverbs", "잠언",
     "Ecclesiastes", "전도서",
