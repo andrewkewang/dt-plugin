@@ -1,4 +1,4 @@
-var VAR_DATA = [
+var DT_DATA = [
 { year: 2026, month: 1, day: 1, dt: "Genesis 1:1-13" },
 { year: 2026, month: 1, day: 2, dt: "Genesis 1:14-25" },
 { year: 2026, month: 1, day: 3, dt: "Genesis 1:26 - 2:3" },
@@ -372,15 +372,15 @@ const month = { 1: "jan", 2: "feb", 3: "mar", 4: "apr", 5: "may", 6: "jun", 7: "
 
 console.log("$" + month[1] + " = array(" )
 
-for (let i = 0; i < VAR_DATA.length; i++) {
-   data = VAR_DATA[i]
+for (let i = 0; i < DT_DATA.length; i++) {
+   data = DT_DATA[i]
    if (data == null) {
      console.log(");")
      break;
    }
    console.log("\"" + data.day + "\" => \"" + data.dt + "\",")
-   if (VAR_DATA[i+1] !== null && VAR_DATA[i+1].day == 1) {
+   if (DT_DATA[i+1] !== null && DT_DATA[i+1].day == 1) {
      console.log(");")
-     console.log("$" + month[VAR_DATA[i+1].month] + " = array(" )
+     console.log("$" + month[DT_DATA[i+1].month] + " = array(" )
    }
 }
